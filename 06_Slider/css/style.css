@@ -1,0 +1,61 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f5f8;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.container
+{
+    width: 1100px;
+    height: 400px;
+    background-color: rgb(181, 181, 181);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-window
+{
+   
+    width: 256px;
+    height: 256px;
+    background-color: orangered;
+    border: 2px black solid;
+    overflow: hidden;
+}
+.slider-line
+{
+    position: relative;
+    display: flex;
+    width: 1100px;
+    transition: all ease 1s;
+  
+
+   
+   
+}
+
+button
+{
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+     
+}
+
+
